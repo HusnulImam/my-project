@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table
-public class Admin {
+public class User{
 
     @Id
     @GeneratedValue
