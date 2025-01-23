@@ -11,7 +11,15 @@ public class MetodePembayaranService {
     @Autowired
     private MetodePembayaranRepository metodePembayaranRepository;
 
-    public MetodePembayaran createMetode(MetodePembayaran metodePembayaran){
+    public MetodePembayaran createPaymentMethod(MetodePembayaran metodePembayaran){
         return metodePembayaranRepository.save(metodePembayaran);
+    }
+
+    public MetodePembayaran deletePaymentMethod(Long id){
+        MetodePembayaran metodePembayaran = metodePembayaranRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Category not found"));
+
+        metodePembayaranRepository.delete(metodePembayaran);
+        return metodePembayaran;
     }
 }

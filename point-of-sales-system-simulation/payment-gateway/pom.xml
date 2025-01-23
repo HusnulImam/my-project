@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.springboot</groupId>
-	<artifactId>gen-nomorgen-java-springboot-pos-producer-kafka</artifactId>
+	<artifactId>payment-gateway</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Project for Spring Boot</description>
