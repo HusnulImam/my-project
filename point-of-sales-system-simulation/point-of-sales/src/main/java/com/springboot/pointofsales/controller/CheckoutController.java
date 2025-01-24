@@ -15,9 +15,9 @@ public class CheckoutController {
     @Autowired
     private CheckoutService checkoutService;
 
-    //Endpoint untuk costumer melakukan checkout.
-    // Jika metode pembayaran bukan cash, maka proses dilanjutkan pada project payment gateway
-    @PostMapping("/process-checkout")
+    //Endpoint untuk costumer melakukan checkout
+    //Jika metode pembayaran bukan cash, maka proses dilanjutkan pada project payment gateway
+    @PostMapping("/checkout")
     public Checkout createCheckout(@RequestBody Checkout checkout){
         return checkoutService.processCheckout(checkout);
     }

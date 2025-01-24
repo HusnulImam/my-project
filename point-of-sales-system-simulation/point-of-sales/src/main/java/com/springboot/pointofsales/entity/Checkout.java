@@ -15,8 +15,8 @@ public class Checkout {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "metodePembayaran_id", referencedColumnName = "id")
-    private MetodePembayaran metodePembayaran;
+    @JoinColumn(name = "paymentMethod_id", referencedColumnName = "id")
+    private PaymentMethod paymentMethod;
     private String number;
     private String name;
     private String paymentStatus;
@@ -25,7 +25,7 @@ public class Checkout {
 
     @OneToMany(cascade = CascadeType.PERSIST, orphanRemoval = true)
     @JoinColumn(name = "checkout_id")
-    private List<Keranjang> keranjangList;
+    private List<ShoppingCart> shopppingCartList;
 
     private double totalPrice;
 }

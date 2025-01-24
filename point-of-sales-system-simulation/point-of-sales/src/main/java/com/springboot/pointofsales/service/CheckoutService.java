@@ -1,11 +1,11 @@
 package com.springboot.pointofsales.service;
 
 import com.springboot.pointofsales.entity.Checkout;
-import com.springboot.pointofsales.entity.Keranjang;
-import com.springboot.pointofsales.entity.MetodePembayaran;
+import com.springboot.pointofsales.entity.ShoppingCart;
+import com.springboot.pointofsales.entity.PaymentMethod;
 import com.springboot.pointofsales.repository.CheckoutRepository;
-import com.springboot.pointofsales.repository.KeranjangRepository;
-import com.springboot.pointofsales.repository.MetodePembayaranRepository;
+import com.springboot.pointofsales.repository.ShoppingCartRepository;
+import com.springboot.pointofsales.repository.PaymentMethodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -22,38 +22,38 @@ public class CheckoutService {
     private CheckoutRepository checkoutRepository;
 
     @Autowired
-    private MetodePembayaranRepository metodePembayaranRepository;
+    private PaymentMethodRepository paymentMethodRepository;
 
     @Autowired
-    private KeranjangRepository keranjangRepository;
+    private ShoppingCartRepository shoppingCartRepository;
 
     @Transactional
     public Checkout processCheckout(Checkout checkout){
-        MetodePembayaran metodePembayaran = metodePembayaranRepository.findById(checkout.getMetodePembayaran().getId())
-                .orElseThrow(() -> new IllegalArgumentException("Metode pembayaran tidak ditemukan"));
+        PaymentMethod paymentMethod = paymentMethodRepository.findById(checkout.getPaymentMethod().getId())
+                .orElseThrow(() -> new IllegalArgumentException("Payment method not found"));
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String user = authentication.getName();
 
-        List<Keranjang> keranjangList = keranjangRepository.findByName(user);
-        if(keranjangList.isEmpty()){
-            throw new IllegalStateException("Keranjang Kosong");
+        List<ShoppingCart> shoppingCartList = shoppingCartRepository.findByName(user);
+        if(shoppingCartList.isEmpty()){
+            throw new IllegalStateException("ShoppingCart is empty");
         }
 
         double grandTotal = 0.0;
-        for(Keranjang newKeranjang: keranjangList){
-            double totalHarga = newKeranjang.getAmount()*newKeranjang.getMasterBarang().getPrice();
+        for(ShoppingCart newShoppingCart : shoppingCartList){
+            double totalHarga = newShoppingCart.getAmount()* newShoppingCart.getProduct().getPrice();
             grandTotal += totalHarga;
         }
 
-        checkout.setMetodePembayaran(metodePembayaran);
+        checkout.setPaymentMethod(paymentMethod);
         checkout.setName(user);
-        checkout.setKeranjangList(keranjangList);
+        checkout.setShopppingCartList(shoppingCartList);
         checkout.setCreatedDate(LocalDateTime.now());
         checkout.setTotalPrice(grandTotal);
 
         //metode id = 3 merupakan metode cash
-        if(checkout.getMetodePembayaran().getId() == 3){
+        if(checkout.getPaymentMethod().getId() == 3){
             checkout.setNumber(null);
             checkout.setPaymentDate(LocalDateTime.now());
             checkout.setPaymentStatus("Payment success");
@@ -66,8 +66,8 @@ public class CheckoutService {
             checkout.setPaymentStatus("Pending payment");
         }
 
-        keranjangRepository.deleteAll(keranjangList);
-        checkout.getKeranjangList().clear();
+        shoppingCartRepository.deleteAll(shoppingCartList);
+        checkout.getShopppingCartList().clear();
 
         checkoutRepository.save(checkout);
 

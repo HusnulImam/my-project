@@ -25,10 +25,10 @@ public class PaymentService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${payment.api.url}")  // URL API VirtualAccount yang bisa diambil dari konfigurasi
+    @Value("${payment.api.url}")
     private String paymentApiUrl;
 
-    public void payment(PaymentResponse paymentResponse) {
+    public void savePayment(PaymentResponse paymentResponse) {
 
         Payment payment = new Payment();
 

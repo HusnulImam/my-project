@@ -2,9 +2,9 @@ package com.springboot.pointofsales.dto;
 import lombok.Data;
 
 @Data
-public class MasterBarangDTO {
+public class ProductDTO {
 
     private String name;
-    private Long kategori_id;
+    private Long category_id;
     private double price;
 }

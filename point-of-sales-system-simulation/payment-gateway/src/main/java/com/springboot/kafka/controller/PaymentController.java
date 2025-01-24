@@ -26,7 +26,7 @@ public class PaymentController {
     public String paymentProcess(@RequestParam String number, @RequestParam double totalPrice){
         try {
             ResponseEntity<PaymentResponse> response = paymentService.getPayment(number, totalPrice);
-            paymentService.payment(response.getBody());
+            paymentService.savePayment(response.getBody());
 
             return ("Payment success");
 

@@ -13,6 +13,8 @@ public class PaymentController {
     @Autowired
     private PaymentService paymentService;
 
+    //Endpoint ini tidak perlu di test
+    //Endpoint ini akan di panggil oleh project payment gateway
     @GetMapping("/payment-process")
     public ResponseEntity<PaymentDTO> paymentProcess(
             @RequestParam String number,

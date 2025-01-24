@@ -1,23 +1,23 @@
-2025-01-22 11:27:29 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Starting DemoApplication using Java 23.0.1 with PID 13416 (C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway\target\classes started by Yoga in C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway)
-2025-01-22 11:27:29 [restartedMain] INFO  c.springboot.kafka.DemoApplication - No active profile set, falling back to 1 default profile: "default"
-2025-01-22 11:27:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-22 11:27:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-22 11:27:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-22 11:27:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interface.
-2025-01-22 11:27:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-01-22 11:27:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-22 11:27:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2025-01-22 11:27:33 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-22 11:27:33 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3733 ms
-2025-01-22 11:27:33 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-22 11:27:33 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.2.Final
-2025-01-22 11:27:33 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-01-22 11:27:34 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-22 11:27:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-01-22 11:27:34 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@28aa95ed
-2025-01-22 11:27:34 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-01-22 11:27:34 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-22 11:27:35 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-01-24 13:08:33 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Starting DemoApplication using Java 23.0.1 with PID 21384 (C:\Users\Yoga\Documents\Unung\my-project\point-of-sales-system-simulation\payment-gateway\target\classes started by Yoga in C:\Users\Yoga\Documents\Unung\my-project\point-of-sales-system-simulation\payment-gateway)
+2025-01-24 13:08:33 [restartedMain] INFO  c.springboot.kafka.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-24 13:08:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24 13:08:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24 13:08:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-24 13:08:35 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2025-01-24 13:08:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-01-24 13:08:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-24 13:08:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-01-24 13:08:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-24 13:08:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3301 ms
+2025-01-24 13:08:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-24 13:08:37 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-01-24 13:08:37 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-01-24 13:08:38 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-24 13:08:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-24 13:08:38 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9c30b1e
+2025-01-24 13:08:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-24 13:08:38 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-24 13:08:38 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 17.0
@@ -25,115 +25,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-01-22 11:27:36 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-22 11:27:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-22 11:27:37 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-22 11:27:38 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
-2025-01-22 11:27:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-01-22 11:27:38 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Started DemoApplication in 10.604 seconds (process running for 11.901)
-2025-01-22 11:31:29 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Starting DemoApplication using Java 23.0.1 with PID 18784 (C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway\target\classes started by Yoga in C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway)
-2025-01-22 11:31:29 [restartedMain] INFO  c.springboot.kafka.DemoApplication - No active profile set, falling back to 1 default profile: "default"
-2025-01-22 11:31:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-22 11:31:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-22 11:31:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-22 11:31:31 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 158 ms. Found 1 JPA repository interface.
-2025-01-22 11:31:33 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-01-22 11:31:33 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-22 11:31:33 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2025-01-22 11:31:34 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-22 11:31:34 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4835 ms
-2025-01-22 11:31:34 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-22 11:31:34 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.2.Final
-2025-01-22 11:31:34 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-01-22 11:31:35 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-22 11:31:35 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-01-22 11:31:36 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27315219
-2025-01-22 11:31:36 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-01-22 11:31:36 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-22 11:31:36 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-22 11:31:37 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-22 11:31:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-22 11:31:39 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-22 11:31:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-01-22 11:31:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-01-22 11:31:40 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Started DemoApplication in 12.85 seconds (process running for 14.304)
-2025-01-22 11:44:21 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Starting DemoApplication using Java 23.0.1 with PID 3988 (C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway\target\classes started by Yoga in C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway)
-2025-01-22 11:44:21 [restartedMain] INFO  c.springboot.kafka.DemoApplication - No active profile set, falling back to 1 default profile: "default"
-2025-01-22 11:44:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-22 11:44:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-22 11:44:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-22 11:44:24 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interface.
-2025-01-22 11:44:26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-01-22 11:44:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-22 11:44:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2025-01-22 11:44:26 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-22 11:44:26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4860 ms
-2025-01-22 11:44:26 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-22 11:44:27 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.2.Final
-2025-01-22 11:44:27 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-01-22 11:44:27 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-22 11:44:27 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-01-22 11:44:28 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57681ef2
-2025-01-22 11:44:28 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-01-22 11:44:28 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-22 11:44:28 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-22 11:44:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-22 11:44:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-22 11:44:31 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-22 11:44:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-01-22 11:44:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-01-22 11:44:32 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Started DemoApplication in 13.229 seconds (process running for 14.704)
-2025-01-22 11:53:33 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Starting DemoApplication using Java 23.0.1 with PID 8296 (C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway\target\classes started by Yoga in C:\Users\Yoga\Documents\Unung\my-project\mini-project-aplikasi-pos\payment-gateway)
-2025-01-22 11:53:33 [restartedMain] INFO  c.springboot.kafka.DemoApplication - No active profile set, falling back to 1 default profile: "default"
-2025-01-22 11:53:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-01-22 11:53:33 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-01-22 11:53:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-01-22 11:53:34 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interface.
-2025-01-22 11:53:36 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
-2025-01-22 11:53:36 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-01-22 11:53:36 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2025-01-22 11:53:36 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-01-22 11:53:36 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3062 ms
-2025-01-22 11:53:36 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-01-22 11:53:36 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.2.Final
-2025-01-22 11:53:36 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-01-22 11:53:37 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-01-22 11:53:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-01-22 11:53:37 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f87bd8f
-2025-01-22 11:53:37 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-01-22 11:53:37 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-01-22 11:53:37 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 17.0
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-01-22 11:53:38 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-01-22 11:53:38 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-01-22 11:53:39 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-01-22 11:53:40 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2025-01-22 11:53:40 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
-2025-01-22 11:53:40 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Started DemoApplication in 7.845 seconds (process running for 8.56)
-2025-01-22 12:11:30 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-22 12:11:30 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-01-22 12:11:30 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+2025-01-24 13:08:39 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-24 13:08:39 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-24 13:08:40 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-24 13:08:41 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-01-24 13:08:41 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2025-01-24 13:08:41 [restartedMain] INFO  c.springboot.kafka.DemoApplication - Started DemoApplication in 9.0 seconds (process running for 11.903)
+2025-01-24 13:35:03 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 13:35:03 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-24 13:35:03 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-24 13:35:12 [http-nio-8081-exec-3] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
 	acks = -1
 	auto.include.jmx.reporter = true
 	batch.size = 16384
@@ -229,15 +130,25 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=demo-producer-1] Instantiated an idempotent producer.
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.8.1
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 70d6ff42debf7e17
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1737522712378
-2025-01-22 12:11:52 [kafka-producer-network-thread | demo-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=demo-producer-1] Cluster ID: s9f_cPAkTHage0ku-TAHYg
-2025-01-22 12:11:52 [http-nio-8081-exec-3] INFO  c.s.k.service.KafkaPaymentService - Message sent: {number=1234567891, totalPrice=46000.0, checkoutId=8, paymentDate=2025-01-22 12:11:30, paymentStatus=Payment Success}
-2025-01-22 12:11:52 [kafka-producer-network-thread | demo-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=demo-producer-1] ProducerId set to 0 with epoch 0
-2025-01-22 12:20:52 [kafka-producer-network-thread | demo-producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=demo-producer-1] Node -1 disconnected.
-2025-01-22 12:30:52 [kafka-producer-network-thread | demo-producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=demo-producer-1] Node -1 disconnected.
-2025-01-22 12:41:41 [http-nio-8081-exec-8] INFO  c.s.k.service.KafkaPaymentService - Message sent: {number=1234567891, totalPrice=109000.0, checkoutId=9, paymentDate=2025-01-22 12:41:33, paymentStatus=Payment Success}
-2025-01-22 13:01:54 [http-nio-8081-exec-5] INFO  c.s.k.service.KafkaPaymentService - Message sent: {number=1234567891, totalPrice=40000.0, checkoutId=16, paymentDate=2025-01-22 13:01:40, paymentStatus=Payment Success}
+2025-01-24 13:35:12 [http-nio-8081-exec-3] INFO  o.a.k.c.t.i.KafkaMetricsCollector - initializing Kafka metrics collector
+2025-01-24 13:35:12 [http-nio-8081-exec-3] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=demo-producer-1] Instantiated an idempotent producer.
+2025-01-24 13:35:12 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.8.1
+2025-01-24 13:35:12 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 70d6ff42debf7e17
+2025-01-24 13:35:12 [http-nio-8081-exec-3] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1737700512672
+2025-01-24 13:35:13 [kafka-producer-network-thread | demo-producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=demo-producer-1] Cluster ID: s9f_cPAkTHage0ku-TAHYg
+2025-01-24 13:35:13 [http-nio-8081-exec-3] INFO  c.s.k.service.KafkaPaymentService - Message sent: {number=1234567890, totalPrice=94000.0, checkoutId=1, paymentDate=2025-01-24 13:35:03, paymentStatus=Payment Success}
+2025-01-24 13:35:13 [kafka-producer-network-thread | demo-producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=demo-producer-1] ProducerId set to 1000 with epoch 0
+2025-01-24 13:40:32 [http-nio-8081-exec-8] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-01-24 13:40:32 [http-nio-8081-exec-8] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: nilai kunci ganda melanggar batasan unik « uk7abdn9hvx57bfc8pnwa7o7pj »
+  Detail: Kunci « (checkout_id)=(3) » sudah ada.
+2025-01-24 13:40:50 [http-nio-8081-exec-9] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-01-24 13:40:50 [http-nio-8081-exec-9] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: nilai kunci ganda melanggar batasan unik « uk7abdn9hvx57bfc8pnwa7o7pj »
+  Detail: Kunci « (checkout_id)=(3) » sudah ada.
+2025-01-24 13:40:59 [http-nio-8081-exec-6] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-01-24 13:40:59 [http-nio-8081-exec-6] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: nilai kunci ganda melanggar batasan unik « uk7abdn9hvx57bfc8pnwa7o7pj »
+  Detail: Kunci « (checkout_id)=(3) » sudah ada.
+2025-01-24 13:42:18 [http-nio-8081-exec-1] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+2025-01-24 13:42:18 [http-nio-8081-exec-1] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: nilai kunci ganda melanggar batasan unik « uk7abdn9hvx57bfc8pnwa7o7pj »
+  Detail: Kunci « (checkout_id)=(3) » sudah ada.
+2025-01-24 13:44:13 [kafka-producer-network-thread | demo-producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=demo-producer-1] Node -1 disconnected.
+2025-01-24 13:44:21 [http-nio-8081-exec-5] INFO  c.s.k.service.KafkaPaymentService - Message sent: {number=9876543210, totalPrice=110000.0, checkoutId=3, paymentDate=2025-01-24 13:44:05, paymentStatus=Payment Success}

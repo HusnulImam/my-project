@@ -5,15 +5,16 @@ import lombok.Data;
 
 @Entity
 @Data
-public class Keranjang {
+@Table(name = "shopping_cart")
+public class ShoppingCart {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "barang_id", referencedColumnName = "id")
-    private MasterBarang masterBarang;
+    @JoinColumn(name = "product_id", referencedColumnName = "id")
+    private Product product;
     private String name;
     private int amount;
 }

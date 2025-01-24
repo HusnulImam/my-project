@@ -5,8 +5,8 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name = "barang")
-public class MasterBarang {
+@Table(name = "category")
+public class Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,9 +15,4 @@ public class MasterBarang {
     @Column(unique = true)
     private String name;
 
-    @ManyToOne
-    @JoinColumn(name = "kategori_id", referencedColumnName = "id")
-    private MasterKategori masterKategori;
-
-    private double price;
 }
