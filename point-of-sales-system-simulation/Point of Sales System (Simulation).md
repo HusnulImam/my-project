@@ -34,34 +34,34 @@ URL: http://localhost:8082
 #### Category:
 | Endpoint | HTTP | Description |
 | ------ | ------ | ------ |
-| /api/v1/admin/master-category | POST | Add new category |
-| /api/v1/admin/master-category?id=... | DELETE | Delete category by id |
-| /api/v1/auth/master-category?id=... | PUT | Update category by id |
+| /api/v1/admin/category | POST | Add new category |
+| /api/v1/admin/category?id=... | DELETE | Delete category by id |
+| /api/v1/auth/category?id=... | PUT | Update category by id |
 
 #### Product:
 | Endpoint | HTTP | Description |
 | ------ | ------ | ------ |
-| /api/v1/admin/master-barang | POST | Add new product |
-| /api/v1/admin/master-barang?id=... | DELETE | Delete product by id |
-| /api/v1/auth/master-barang?id=... | PUT | Update product by id |
+| /api/v1/admin/product | POST | Add new product |
+| /api/v1/admin/product?id=... | DELETE | Delete product by id |
+| /api/v1/auth/product?id=... | PUT | Update product by id |
 
 #### Payment Method:
 | Endpoint | HTTP | Description |
 | ------ | ------ | ------ |
-| /api/v1/admin//metode-pembayaran | POST | Add new payment method |
-| /api/v1/admin//metode-pembayaran?id=... | DELETE | Delete payment method by id |
+| /api/v1/admin/payment-method | POST | Add new payment method |
+| /api/v1/admin/payment-method?id=... | DELETE | Delete payment method by id |
 
 #### Shopping Cart:
 | Endpoint | HTTP | Description |
 | ------ | ------ | ------ |
-| /api/v1/user/keranjang | GET | Get all the items available for purchase by customers |
-| /api/v1/user/keranjang?id=... | GET | Get item by category id |
-| /api/v1/user/keranjang | POST | Add new shopping cart |
+| /api/v1/user/shopping-cart | GET | Get all the items available for purchase by customers |
+| /api/v1/user/shopping-cart/{id} | GET | Get item by category id |
+| /api/v1/user/shopping-cart | POST | Add new shopping cart |
 
 #### Checkout:
 | Endpoint | HTTP | Description |
 | ------ | ------ | ------ |
-| /api/v1/user/process-checkout | POST | Checkout process |
+| /api/v1/user/checkout | POST | Checkout process |
 
 URL: http://localhost:8081
 #### Payment Gateway:
