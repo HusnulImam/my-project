@@ -36,14 +36,14 @@ URL: http://localhost:8082
 | ------ | ------ | ------ |
 | /api/v1/admin/category | POST | Add new category |
 | /api/v1/admin/category?id=... | DELETE | Delete category by id |
-| /api/v1/auth/category?id=... | PUT | Update category by id |
+| /api/v1/admin/category?id=... | PUT | Update category by id |
 
 #### Product:
 | Endpoint | HTTP | Description |
 | ------ | ------ | ------ |
 | /api/v1/admin/product | POST | Add new product |
 | /api/v1/admin/product?id=... | DELETE | Delete product by id |
-| /api/v1/auth/product?id=... | PUT | Update product by id |
+| /api/v1/admin/product?id=... | PUT | Update product by id |
 
 #### Payment Method:
 | Endpoint | HTTP | Description |
